@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div>
+      <h2>A game of guess, where you can set the guessing Limit.</h2>
+
+      <div id="guessLimit">
+        <input type="number" id="maxGuess" placeholder="Set guess limit" />
+        <button onclick="onMaxLimitClicked()">Enter</button> <br /><br />
+      </div>
+
+      <h3 id="setLimit"></h3>
+
+      <input type="number" id="guessNumber" placeholder="Input guess" />
+      <button onclick="onGuessClicked()">Guess</button> <br /><br />
+    </div>
+    <div id="result"></div>
+
+    <script src="preject.js"></script>
+  </body>
+</html>
